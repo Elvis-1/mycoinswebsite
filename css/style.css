@@ -1,0 +1,433 @@
+
+
+body{
+   font-family: 'Roboto', sans-serif; 
+    background: #f5f5f5;
+}
+.main-nav{
+    display: none;
+}
+
+
+.navbar-header .brand{
+    font-size: 20px;
+    color:  #fff;
+    font-weight: bold;
+} 
+
+div ul li a{
+    font-size: 18px;
+    color: #fff;
+}
+span.mynav{
+     background-color:#fff;    
+}
+div ul li a .spinwheel{
+    background:  rgba(190,0,0,0.7);
+    padding: 10px;
+    border-radius: 5px;
+
+       
+}
+h2,h3{
+    color:#000;
+    font-weight: bold;
+}
+h4{
+    font-weight: bolder;
+    margin: 1em 0px
+}
+
+div ul li a .spinwheel :hover{
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+
+       
+}
+
+div.width{
+display: flex;
+flex-direction: column;
+margin-top:-15px;
+margin-left: 1.2rem;
+}
+.width .easy{
+    font-size: 15px; 
+    margin-top: 3%;
+    color: #ffddee;
+    
+        }
+.cryptbtn{
+    padding: 5px;
+    background:  rgba(200,0,0,0.7);;
+    border: solid 1px  rgba(200,0,0,0.7);
+    border-radius: 10px;
+    font-size: 12px;
+    color: #fff;
+    
+}
+.cryptbtn:hover{
+    background: rgba(200,0,0,0.4);
+}
+.cryptdiv{
+ margin-top: 10px;
+}
+
+
+
+
+.main{
+  background: url('../image/realhero.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 40px;
+}
+p.crypto{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.crypto span{
+    display: none;
+}
+.showcase{
+    margin-top: 2em;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 0.2em;
+    display: none;
+
+}
+
+section.show{
+    margin-top: 2em;
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 0.2em;
+    display: none;
+
+}
+
+div.shadow{
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0px 0px 0.5 0.5 #f3f3f3;
+    margin-top: 2em;
+    
+}
+div.shad{
+    margin-bottom: 40px;
+}
+div.shad .hid{
+    display: none;
+}
+
+.signin{
+   padding: 10px;
+    background:  rgba(200,0,0,0.7);
+    border:none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    
+}
+.showfont{
+    font-size: 50px;
+    color:  rgba(200,0,0,0.7);
+}
+.earn{
+    margin-bottom: 40px;
+}
+.feature{
+    margin-left:50px;
+    display: none;
+}
+.feat{
+    padding: 3em;
+    margin-top: 2em;
+    text-align: left;
+}
+.feat .feat{
+    border-left:solid 5px rgba(200,0,0,0.7);
+    padding-left: 1em;
+}
+
+.img{
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.light{
+    color: #666;
+    line-height: 2em;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+   
+.padding{
+    padding-bottom: 100px;
+}
+
+div .foot-image{
+margin-left:20px;
+}
+.foot-image p{
+    margin-left: 25px;
+    padding-right;
+}
+.footer-section{
+    background:url(../image/rectangle31.png) ;
+    background-position: center;
+    background-size: contain;
+    display: none;
+
+}
+.color{
+    background-color:  rgba(150,0,0,0.3);
+    color: #fff;
+    font-weight: bold;
+    margin:20px 0px;
+    padding: 30px 0px;
+}
+.colo{
+    background-color:  rgba(150,0,0,0.3);
+    color:#fff;
+    font-weight: bold;
+    margin:20px 0px;
+    padding: 30px 0px;
+}
+.footer-header{  
+   padding-bottom: 40px;
+}
+.footer-header .p{
+    padding: 5px;
+}
+.right{
+    display: block;
+    color:#aaa;
+}
+
+
+/* about section*/
+.aboutus{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.mainabout{
+    width:100%;
+    box-sizing: border-box;
+    
+    
+}
+
+.about{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom:20px ;
+    border: solid 1px #424242;
+    font-weight: lighter;
+    padding-left: 40px;
+    font-size: 5px;
+    display: none;
+}
+.about h1{
+    font-size: 20px;
+}
+.aboutus .center-me {
+    margin-top:-20px;
+
+
+} 
+.aboutus .center-me h1 {
+     font-size: 50px;
+     margin-bottom: 30px;
+} 
+.aboutus .center-me p {
+    color: rgba(200,0,0,0.7) ;
+    font-size: 30px;
+    margin-bottom: 50px;
+} 
+.about-header{
+   font-size:;
+   color: #fff;
+   padding: 5px;
+   background-color:#000;
+   outline: none;
+   position:;
+   
+}
+.about:hover{
+    cursor: pointer;
+    padding-left:50px ;
+    box-shadow: ;
+    filter: drop-shadow(0px 0.5px 1px);
+    font-size: 25px;
+    
+}
+  
+  
+
+@media only screen and (min-width:768px){
+   p.crypto{
+    font-size: 45px;
+    margin-top: 3.5rem;   
+}
+    .cryptbtn{
+    padding: 15px;
+    font-size: 20px;
+    margin-top: -40em;
+    
+}
+     .width .easy{
+   margin-top: 5%;
+    font-size: 25px;
+    margin-right:10%; 
+        }
+    .showcase{
+        width:100%;
+    }
+    .show{
+        width:100%;
+    }    
+.about{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom:50px ;
+    border: solid 1px #424242;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+.aboutus .center{
+    display:flex;
+
+
+}
+.aboutus .center-me {
+    margin-top:150px;
+
+
+} 
+.aboutus .center-me h1 {
+     font-size: 50px;
+} 
+.aboutus .center-me p {
+    color: rgba(200,0,0,0.7) ;
+    font-size: 50px;
+} 
+    
+}
+    
+
+    @media only screen and (min-width:1000px){
+   
+    div.width{
+        margin-left:3.9%;
+    }
+        
+       .navbar-header .brand{
+        font-size: 30px;
+       
+    } 
+        
+        .cryptbtn{
+    padding: 25px;
+    margin-left:;
+    font-size: 20px;
+   margin-top: 40px;
+            
+    
+}
+.main{
+    padding-bottom: 100px;
+}
+        
+        .showcase{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;  
+    padding: 0px;      
+            
+            }
+            .show{
+                margin-top: 2em;
+                margin-bottom: 2em;
+                text-align: center;  
+                padding: 0px;      
+                        
+                        }
+
+        .shadow{
+            margin-right:3em;
+            margin-bottom: 2em;
+            
+            
+        }
+        .shad{
+            margin-right:3em;
+            margin-bottom: 2em;
+            
+            
+        }
+        
+        .signin{
+            margin-left: -20px;
+        }
+        .earn{
+                margin-left: -20px; 
+        }
+        .center{
+            margin-left: 100px;  
+        }
+        .shift{
+            margin-left: 150px;
+        }
+       
+       div .foot-image{
+           padding: 0px;
+           text-align: center;
+           margin-left:20px;
+       }
+       .foot-image p{
+           margin-left: 10px;
+           padding-right;
+       }
+       .footer{
+           flex-wrap:nowrap;
+           flex-direction: row;
+       }
+       .right{
+        float: right; 
+        
+       }
+      
+        
+    }
+
+
+
+
+
+
+
